@@ -1,0 +1,251 @@
+html{
+    font-size: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    max-width: 100%;
+    height: 40px;
+    top: 0;
+    background-color: white;
+    position:static;
+}
+.menubtn{
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+}
+.menubtn:hover{
+    background-color: darkgrey;
+}
+.menubtn2{
+    float: right;
+    right: 0%
+}
+.menubtn1{
+    float: left;
+    left: 0%;
+}
+@media(max-width:600px){
+    .menubtn2{
+        display: none;
+    }
+}
+#background{
+    width: 100%;
+    height:auto;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.img{
+    display: block;
+}
+.img2{
+    display: none;
+}
+.par{
+    position: relative;
+    font: 2.8em 'Times New Roman';
+    bottom: 90px;
+    margin-left: 7%;
+    color: rgba(199, 199, 199, 0.885);
+    overflow:hidden;
+}
+.about{
+    margin-top: 5%;
+    background-color: white;
+    max-width: 100%;
+    height: 700px;
+}
+.aboutimg{
+    width: 40%;
+    max-width: 500px;
+    max-height: auto;
+    margin-left:10%;
+    float:left;
+}
+.aboutimgfood{
+    max-width: 100%;
+    height: 100%;
+}
+
+@media(max-width:720px){
+    .aboutimg{
+        width: 0px;
+        position: inherit;
+        display: none;
+    }
+    .aboutc{
+        display: table;
+        width: 100%;
+        text-align: center;
+       margin-left: 15vw;
+        margin-right:15vw;
+    }
+}
+.aboutc{
+    width: 40%;
+    float:right;
+    font-family:'Times New Roman';
+    padding-right:5%;
+}
+.aboutp1{
+    line-height: 6rem;
+    letter-spacing: 0.2em;
+    font-size: 2em;
+    text-align:center;
+}
+.aboutp2{
+    line-height: 4rem;
+    font-size: 1.3em;
+    text-align:center;
+}
+.aboutp3{
+    line-height: 2rem;
+    font-size: 1.1em;
+    text-align:left;
+}
+.aboutp4{
+    line-height: 2rem;
+    font-size: 1.1em;
+    color: gray;
+    text-align:left;
+}
+.span1{
+    background-color: rgb(179, 179, 179);
+    padding:1px 2px;
+}
+@media(max-width:1000px){
+    .aboutp4{
+     display: none;
+    }
+ }
+.menu2{
+    min-width: 100%;
+    height: auto;
+    font-family:'Times New Roman' ;
+}
+.menup{
+    max-width: 40%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+.menup h1{
+    font-size: 3em;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-bottom: 10%;
+}
+.menup h4{
+    font-size: 1.3em;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.menupar{
+    font-size: 1em;
+    color: gray;
+    line-height: 80px;
+    margin-bottom: 15px;
+}
+.menuimg{
+    margin-top: 5%;
+    margin-left: 10%;
+    max-width: 40%;
+    float:left;
+}
+.menuimg img{
+    max-width: 100%;
+    height: auto;
+}
+@media(max-width:990px){
+    .menup{
+        max-width: 100%;
+        
+    }
+    .menuimg{
+        max-width: 100%;
+        float: unset;
+        margin:0px 18%;
+    }
+}
+
+.line{
+    width: 80%;
+    height: 1px;
+    margin:8%;
+    background-color: rgb(167, 167, 167);
+    position: inherit;
+    float: left;
+}
+.contact{
+    float: left;
+    margin: 5% 9%;
+    max-width: 80%;
+}
+.contact h1{
+    font-size: 2.3em;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-bottom: 10%;
+}
+.contactp1{
+    font-size: 1.5;
+    margin-bottom: 3%;
+}
+.contactp2{
+    color: rgb(93, 94, 105);
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+.input p{
+    position:sticky;
+    margin-top: 5%;
+    left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    
+}
+.input-space{
+    max-width: 60%;
+    min-width: 60%;
+    height: 60px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.send-message{
+    width: 110px;
+    height: 40px;
+    background-color: rgb(144, 144, 144);
+    color:black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+}
+.send-message:hover{
+    background-color: rgb(81, 81, 81);
+    color: white;
+    cursor: pointer;
+}
+.name-h{
+    color: black;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    position: relative;
+    left: 40vw;
+    float: left;
+}
